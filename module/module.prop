@@ -1,0 +1,7 @@
+id=corepatch
+name=CorePatch Zygisk
+version=2.0-zg
+versionCode=200
+author=CorePatch
+description=CorePatch port using pure Zygisk + LSPlant ART hooks (no LSPosed/libxposed runtime).
+license=GPL-2.0
