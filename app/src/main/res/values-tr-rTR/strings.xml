@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Çekirdek Yaması N</string>
+    <string name="zygisk_service_unavailable">Zygisk hizmetine bağlanılamıyor</string>
+    <string name="zygisk_service_unavailable_summary">Zygisk altyapısının çalıştığından ve bu modülün etkinleştirildiğinden emin olun.</string>
+    <string name="bypass_downgrade">Sürüm düşürmeye izin ver</string>
+    <string name="bypass_downgrade_summary">Uygulamaların sürüm düşürmesine izin ver.</string>
+    <string name="bypass_verification">Özet doğrulamayı devre dışı bırak</string>
+    <string name="bypass_verification_summary">APK içindeki dosya değiştirildikten sonra uygulama yüklenmesine izin verir (geçersiz özet hatasını yoksayar).</string>
+    <string name="bypass_resource_arsc_restrictions">resources.arsc hizalama kısıtlamasını atla</string>
+    <string name="bypass_resource_arsc_restrictions_summary">Android 11 ve sonraki sürümlerde resources.arsc dosyası sıkıştırılmış veya 4 bayt sınırına hizalanmamış APK’ların yüklenmesine izin ver.</string>
+    <string name="bypass_digest">İmzaları karşılaştırmayı devre dışı bırak</string>
+    <string name="bypass_digest_summary">Farklı imzalara sahip uygulamaların yeniden yüklenmesine izin ver.</string>
+    <string name="bypass_exact_signature_match">Tam imza eşleşmesini atla</string>
+    <string name="bypass_exact_signature_match_summary">Bölünmüş APK’ların farklı imzalar kullanmasına izin ver.</string>
+    <string name="use_previous_signatures">Yüklü imzaları kullan</string>
+    <string name="use_previous_signatures_summary">Kurulum sırasında her zaman zaten yüklü uygulamaların imzalarını kullanır.\nBu son derece <b>tehlikelidir</b>.\nSadece gerçekten gerektiğinde etkinleştirin!</string>
+    <string name="use_previous_signatures_warning">!! Her APK yüklü olanı geçersiz kılabilir !!\nBilinmeyen APK yüklerken dikkatli olun.</string>
+    <string name="allow_hidden_apis_for_system_apps">Sistem uygulamaları için gizli API’lere izin ver</string>
+    <string name="allow_hidden_apis_for_system_apps_summary">Platform imzasıyla eşleşmeyen sistem uygulamalarının gizli API’leri sınırsız kullanmasına izin ver.</string>
+    <string name="miui_usepresig_warn">Xiaomi/Redmi kullanıcıları bu seçeneği etkinleştirmemelidir; aksi halde cihaz açılmayabilir.</string>
+    <string name="bypass_shared_user">Paylaşılan kullanıcı doğrulamasını atla</string>
+    <string name="bypass_shared_user_summary">Paylaşılan kullanıcıdan farklı imzaya sahip uygulamaların yüklenmesine izin ver (<b>‘İmzaları karşılaştırmayı devre dışı bırak’</b> da etkinleştirilmiş olmalıdır).</string>
+    <string name="disable_verification_agent">Paket Doğrulama Ajanını Devre Dışı Bırak</string>
+    <string name="disable_verification_agent_summary">örn. Google Play Koruması</string>
+    <string name="bypass_block">Engeli atla</string>
+    <string name="bypass_block_summary">Nothing Phone gibi bazı cihazlardaki engelleme listesini atlar.</string>
+    <string name="module_description">Paket Yöneticisi Hizmeti değişikliği</string>
+    <string name="hide_launcher_icon">Başlatıcı simgesini gizle</string>
+</resources>
