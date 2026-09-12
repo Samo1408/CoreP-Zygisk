@@ -1,0 +1,8 @@
+[versions]
+agp = "9.2.0"
+
+[libraries]
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+lsplugin-resopt = { id = "org.lsposed.lsplugin.resopt", version = "1.6" }
