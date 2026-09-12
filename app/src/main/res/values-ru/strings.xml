@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Патч ядра N</string>
+    <string name="zygisk_service_unavailable">Не удалось подключиться к службе Zygisk</string>
+    <string name="zygisk_service_unavailable_summary">Убедитесь, что фреймворк Zygisk запущен, а этот модуль включён.</string>
+    <string name="bypass_downgrade">Разрешить понижать версию.</string>
+    <string name="bypass_downgrade_summary">Разрешить переустановку приложений на прошлые версии.</string>
+    <string name="bypass_verification">Отключить проверку дайджеста</string>
+    <string name="bypass_verification_summary">Позволяет устанавливать приложения после изменения файла в apk (игнорировать недопустимую ошибку дайджеста).</string>
+    <string name="bypass_resource_arsc_restrictions">Обойти ограничение выравнивания resources.arsc</string>
+    <string name="bypass_resource_arsc_restrictions_summary">Разрешить установку APK, в которых resources.arsc сжат или не выровнен по границе 4 байт, на Android 11 и новее.</string>
+    <string name="bypass_digest">Отключить сравнение подписей</string>
+    <string name="bypass_digest_summary">Разрешить переустановку приложения с другими подписями.</string>
+    <string name="bypass_exact_signature_match">Обойти точное совпадение подписей</string>
+    <string name="bypass_exact_signature_match_summary">Разрешить разделённым APK использовать разные подписи.</string>
+    <string name="use_previous_signatures">Использовать установленные подписи</string>
+    <string name="use_previous_signatures_summary">"При установке всегда используйте подписи из уже установленных приложений.
+  Это крайне «опасно».
+  Включайте только тогда, когда это действительно необходимо! "</string>
+    <string name="use_previous_signatures_warning">!! Любой APK может перезаписать установленный !!\nБудьте осторожны при установке неизвестных APK.</string>
+    <string name="allow_hidden_apis_for_system_apps">Разрешить скрытые API для системных приложений</string>
+    <string name="allow_hidden_apis_for_system_apps_summary">Разрешить системным приложениям с подписью, отличной от платформенной, свободно использовать скрытые API.</string>
+    <string name="miui_usepresig_warn">Пользователям Xiaomi/Redmi нельзя включать этот параметр, иначе устройство может не загрузиться.</string>
+    <string name="bypass_shared_user">Обойти проверку общего пользователя</string>
+    <string name="bypass_shared_user_summary">Разрешить установку приложения с подписью, отличающейся от подписи его общего пользователя (<b>также должен быть включен ‘Отключить сравнение подписей’</b>)</string>
+    <string name="disable_verification_agent">Отключить агент проверки пакетов</string>
+    <string name="disable_verification_agent_summary">например, Google Play Protection</string>
+    <string name="bypass_block">Обойти блокировку</string>
+    <string name="bypass_block_summary">Обойти список блокировок на некоторых устройствах, например Nothing Phone</string>
+    <string name="module_description">Модификация службы управления пакетами</string>
+    <string name="hide_launcher_icon">Скрыть значок запуска</string>
+</resources>
