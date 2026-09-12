@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Patch Inti N</string>
+    <string name="zygisk_service_unavailable">Tidak dapat terhubung ke layanan Zygisk</string>
+    <string name="zygisk_service_unavailable_summary">Pastikan framework Zygisk berjalan dan modul ini diaktifkan.</string>
+    <string name="bypass_downgrade">Izinkan turun versi</string>
+    <string name="bypass_downgrade_summary">Izinkan turun versi aplikasi.</string>
+    <string name="bypass_verification">Matikan verifikasi digest</string>
+    <string name="bypass_verification_summary">Izinkan pemasangan aplikasi setelah file dalam apk dimodifikasi (abaikan kesalahan digest yang tidak valid).</string>
+    <string name="bypass_resource_arsc_restrictions">Lewati pembatasan penyelarasan resources.arsc</string>
+    <string name="bypass_resource_arsc_restrictions_summary">Izinkan pemasangan APK dengan resources.arsc yang dikompresi atau tidak disejajarkan pada batas 4 byte di Android 11 dan yang lebih baru.</string>
+    <string name="bypass_digest">Matikan pembanding signatures</string>
+    <string name="bypass_digest_summary">Izinkan pemasangan ulang aplikasi dengan signatures berbeda.</string>
+    <string name="bypass_exact_signature_match">Lewati pencocokan tanda tangan yang persis</string>
+    <string name="bypass_exact_signature_match_summary">Izinkan APK terpisah menggunakan tanda tangan yang berbeda.</string>
+    <string name="use_previous_signatures">Gunakan signatures terpasang</string>
+    <string name="use_previous_signatures_summary">Selalu gunakan signatures dari aplikasi yang sudah terpasang ketika memasang.\n Ini sangat <b>berbahaya</b>.\n Hanya aktifkan jika diperlukan sangad!</string>
+    <string name="use_previous_signatures_warning">!! Segala apk dapat menggantikan aplikasi yang terpasang !!\nBerhati-hati ketika memasang apk antah-berantah</string>
+    <string name="allow_hidden_apis_for_system_apps">Izinkan API tersembunyi untuk aplikasi sistem</string>
+    <string name="allow_hidden_apis_for_system_apps_summary">Izinkan aplikasi sistem dengan tanda tangan yang tidak cocok dengan tanda tangan platform menggunakan API tersembunyi tanpa batas.</string>
+    <string name="miui_usepresig_warn">Pengguna Xiaomi/Redmi tidak boleh mengaktifkan opsi ini; jika tidak, perangkat mungkin gagal melakukan boot.</string>
+    <string name="bypass_shared_user">Terobos verifikasi pengguna bersama</string>
+    <string name="bypass_shared_user_summary">Izinkan pemasangan aplikasi dengan signatures berbeda dari pengguna bersama-nya (<b>\'Matikan pembanding signature\' harus diaktifkan juga</b>)</string>
+    <string name="disable_verification_agent">Matikan Agen Verifikasi Paket</string>
+    <string name="disable_verification_agent_summary">Contoh: Proteksi Google Play</string>
+    <string name="bypass_block">Terobos blokiran</string>
+    <string name="bypass_block_summary">Terobos daftar blokir dalam beberapa perangkat seperti Nothing Phone</string>
+    <string name="module_description">Modifikasi layanan pengelola paket</string>
+    <string name="hide_launcher_icon">Sembunyikan ikon peluncur</string>
+</resources>
