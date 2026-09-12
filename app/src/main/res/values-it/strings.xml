@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Patch del core N</string>
+    <string name="zygisk_service_unavailable">Impossibile connettersi al servizio Zygisk</string>
+    <string name="zygisk_service_unavailable_summary">Assicurati che il framework Zygisk sia in esecuzione e che questo modulo sia abilitato.</string>
+    <string name="bypass_downgrade">Consenti ​​Downgrade</string>
+    <string name="bypass_downgrade_summary">Consenti il ​​downgrade delle applicazioni.</string>
+    <string name="bypass_verification">Disabilita verifica digest</string>
+    <string name="bypass_verification_summary">Consente l\'installazione di app dopo aver modificato il file nell\'apk (ignora l\'errore digest non valido).</string>
+    <string name="bypass_resource_arsc_restrictions">Ignora il vincolo di allineamento di resources.arsc</string>
+    <string name="bypass_resource_arsc_restrictions_summary">Consenti l’installazione di APK in cui resources.arsc è compresso o non è allineato a 4 byte su Android 11 e versioni successive.</string>
+    <string name="bypass_digest">Disabilita il confronto delle firme</string>
+    <string name="bypass_digest_summary">Consenti la reinstallazione di app con firme diverse.</string>
+    <string name="bypass_exact_signature_match">Ignora la corrispondenza esatta delle firme</string>
+    <string name="bypass_exact_signature_match_summary">Consenti agli APK suddivisi di usare firme diverse.</string>
+    <string name="use_previous_signatures">Utilizza le firme installate</string>
+    <string name="use_previous_signatures_summary">Durante l\'installazione, utilizza sempre le firme delle app già installate.\n Questo è estremamente <b>pericoloso</b>.\n Abilitalo solo quando è veramente necessario!</string>
+    <string name="use_previous_signatures_warning">!! Qualsiasi apk può sovrascrivere quello installato !!\nFai attenzione quando installi un apk sconosciuto</string>
+    <string name="allow_hidden_apis_for_system_apps">Consenti le API nascoste alle app di sistema</string>
+    <string name="allow_hidden_apis_for_system_apps_summary">Consenti alle app di sistema con una firma diversa da quella della piattaforma di usare liberamente le API nascoste.</string>
+    <string name="miui_usepresig_warn">Gli utenti Xiaomi/Redmi non devono abilitare questa opzione; in caso contrario, il dispositivo potrebbe non avviarsi.</string>
+    <string name="bypass_shared_user">Bypassa verifica utente condiviso</string>
+    <string name="bypass_shared_user_summary">Consenti l\'installazione dell\'app con firma diversa da quella dell\'utente condiviso (deve essere abilitato anche <b>\'Disabilita il confronto delle firme\'</b>)</string>
+    <string name="disable_verification_agent">Disabilita agente di verifica pacchetti</string>
+    <string name="disable_verification_agent_summary">ad es. Google Play Protection</string>
+    <string name="bypass_block">Bypassa blocchi</string>
+    <string name="bypass_block_summary">Bypassa la lista di blocco di alcuni dispositivi come Nothing Phone</string>
+    <string name="module_description">Modifica del servizio di gestione pacchetti</string>
+    <string name="hide_launcher_icon">Nascondi l’icona di avvio</string>
+</resources>
