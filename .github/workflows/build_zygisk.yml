@@ -201,7 +201,7 @@ jobs:
           # Run it directly so a task-list parsing failure cannot hide the real
           # Gradle configuration error.
           echo "Running CorePatch task: :app:zygiskModuleZip"
-          ./gradlew :app:zygiskModuleZip --no-daemon --console=plain --stacktrace
+          ../gradlew :app:zygiskModuleZip --no-configuration-cache
 
       - name: Validate generated module
         shell: bash
